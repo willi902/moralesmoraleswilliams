@@ -1,0 +1,17 @@
+// devolver el espacio que ocupa cada uno de los tipos de dato.
+
+#include<stdio.h>
+int main()
+{
+char a;
+printf("char: %lu \n", sizeof(a));
+int b;
+printf("int: %lu \n",sizeof(b));
+long c;
+printf("long: %lu \n",sizeof(c));
+float d;
+printf("float: %lu \n",sizeof(d));
+double e;
+printf("double: %lu \n",sizeof(e));
+
+}
