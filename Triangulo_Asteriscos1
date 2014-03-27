@@ -1,0 +1,22 @@
+
+
+# Include <stdio.h>
+# Include <iostream>
+int main () {
+    int a, i, j;
+    printf ("Digite ONU entero numerico valor \ n");
+    scanf ("% d", & a);
+    for (i = 0; i <a; i + +) {
+                 for (j = 0; j <= i; j + +) {
+                          printf ("*");
+                                   }
+                             printf ("\ n");
+                 }
+                     del sistema ("PAUSE");
+    }
+
+
+
+
+
+
