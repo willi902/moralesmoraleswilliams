@@ -1,0 +1,28 @@
+
+/ / Segundo triangulo
+
+# Include <conio.h>
+# Include <stdio.h>
+
+int main ()
+{
+	int i, a, j, num = 6;
+ printf ("Digite ONU entero numerico valor \ n");
+	scanf ("% d", & a);
+	for (i = 0; i <6; i + +)
+	{
+		printf ("");
+     	for (j = 0; j <num; j + +)
+		{
+			printf ("*");
+		}
+	printf ("\ n");
+	num -;
+   }
+   
+	getch ();
+	return (0);
+   / /}
+}
+
+
