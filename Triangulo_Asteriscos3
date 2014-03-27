@@ -1,0 +1,20 @@
+// tercer triangulo
+#include <stdio.h>
+#include<iostream>
+
+int main(){
+    int a,n;
+    printf("digite un valor numerico entero \n");
+    scanf("%d",&a);
+    for(int i=0;i<a;i++){
+            for(int j=i;j<a;j++){
+                    printf(" "); 
+                    }
+                    n=i;
+                    while(n>=0){
+                                printf("*");
+                                n--;
+                                }
+                                printf("\n");
+                    }
+    } 
