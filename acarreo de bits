@@ -1,0 +1,17 @@
+/* programa de acarreo de bits*/
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+#include <stdio.h>
+
+int main()
+ 
+ {
+ 	char a=11,b=11,c=0,d=0x0f,x;
+ 	char e=a&b;
+ 	char f=b&d;
+ 	c=a&b;
+ 	c=c<<1;
+ 	x=e^f^c;
+ 	printf("%d\n",x);
+	return 0;
+}
